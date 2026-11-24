@@ -17,3 +17,8 @@
 python set1/p1/p1_grade_calculator.py
 python set1/p2/p2_main.py
 ```
+
+## P1 Run Summary
+
+P1 was tested with grades 85, 90, and 78. It produced an average of 84.33,
+a highest grade of 90, a lowest grade of 78, and a PASSED status.
