@@ -1,6 +1,6 @@
 # ELEC4-Python-Escano
 
-- **Full Name:** Sheriene Escano
+- **Full Name:** Sheriene Mae Escano
 - **Section:** IV-BSIT C
 - **Course:** ELEC 4 - Python Programming
 
