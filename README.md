@@ -20,11 +20,15 @@ python set1/p2/p2_main.py
 
 ## P1 Run Summary
 
-P1 was tested with grades 85, 90, and 78. It produced an average of 84.33,
-a highest grade of 90, a lowest grade of 78, and a PASSED status.
+The sample run uses grades 85 and 90. The average is 87.50, the highest
+grade is 90.00, the lowest grade is 85.00, and the status is PASSED.
+
+![P1 terminal output showing the grade results](set1/p1/screenshots/p1-sample-run.png)
 
 ## P2 Run Summary
 
 P2 uses the custom `student_utils` module and the built-in `datetime` module.
 It validates entered grades and displays the average, highest grade, lowest grade,
 and pass/fail status together with the report generation date and time.
+
+![P2 terminal output showing the grade report and timestamp](set1/p2/screenshots/p2-sample-run.png)
