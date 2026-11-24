@@ -17,10 +17,30 @@ def divide_numbers():
         print(f"Result: {result:g}")
 
 
+def open_file():
+    filename = input("Enter the file name: ").strip()
+    try:
+        with open(filename, encoding="utf-8") as source:
+            contents = source.read()
+    except FileNotFoundError:
+        print(f"File not found: {filename}")
+    except UnicodeError:
+        print("The file could not be read as UTF-8 text.")
+    except (OSError, ValueError) as error:
+        print(f"Could not open the file: {error}")
+    else:
+        print("\nFile contents:")
+        print(contents)
+    finally:
+        # This message appears whether the file was read or an error occurred.
+        print("File operation finished.")
+
+
 def show_menu():
     print("\n===== Safe Menu Program =====")
     print("1. Divide two numbers")
-    print("2. Exit")
+    print("2. Open a text file")
+    print("3. Exit")
 
 
 def main():
@@ -31,10 +51,12 @@ def main():
         if choice == "1":
             divide_numbers()
         elif choice == "2":
+            open_file()
+        elif choice == "3":
             print("Goodbye!")
             break
         else:
-            print("Invalid menu choice. Please select 1 or 2.")
+            print("Invalid menu choice. Please select 1, 2, or 3.")
 
 
 if __name__ == "__main__":
