@@ -11,6 +11,7 @@
 | P1 - Student Grade Calculator | Menu-driven functions for grade averages and results | [set1/p1](set1/p1) |
 | P2 - Custom Student Module | Reusable grade utilities and built-in module usage | [set1/p2](set1/p2) |
 | P3 - Student Record Manager | Add, remove, search, and display student names | [set1/p3](set1/p3) |
+| P4 - Safe Menu Program | Divide numbers and read text files with error handling | [set1/p4](set1/p4) |
 
 ## How to Run
 
@@ -18,6 +19,7 @@
 python set1/p1/p1_grade_calculator.py
 python set1/p2/p2_main.py
 python set1/p3/p3_record_manager.py
+python set1/p4/p4_exceptions.py
 ```
 
 ## P1 Run Summary
@@ -42,3 +44,13 @@ and pass/fail status together with the report generation date and time.
 ![P3 terminal output showing the alphabetical list, removal, and updated count](set1/p3/screenshots/p3-display-remove.png)
 
 ![P3 terminal output showing a partial search for reyes](set1/p3/screenshots/p3-partial-search.png)
+
+## P4 Error Handling
+
+![P4 terminal output for invalid numeric input](set1/p4/screenshots/p4-invalid-number.png)
+
+![P4 terminal output for division by zero](set1/p4/screenshots/p4-division-by-zero.png)
+
+![P4 terminal output for a missing file](set1/p4/screenshots/p4-file-not-found.png)
+
+![P4 terminal output for an invalid menu choice](set1/p4/screenshots/p4-invalid-menu-choice.png)
